@@ -1,2 +1,4 @@
 #!/bin/bash
+
+gcc -E $CFILE -o c
 0x00-hello_world
