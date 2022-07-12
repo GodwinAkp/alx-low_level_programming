@@ -1,22 +1,21 @@
-nclude "main.h"
-
+#include "main.h"
 /**
- * puts2 - prints xters of a string
- * @str: the used string reference
- * Return: 0
+ * puts2 - func that prints 1 char/2 of a string, followed by a new line.
+ * @str: declaration of str and paramters for the function puts2
+ * Return: Always 0.
  */
-
 void puts2(char *str)
 {
-		int i = 0;
+		int c;
+			char l;
 
-			while (str[i] != '\0')
-					{
-								if (i % 2 == 0)
-											{
-															_putchar(str[i]);
-																	}
-										i++;
-											}
-				_putchar('\n');
+				for (c = 0; str[c] != 0; c++)
+						{
+									if (c % 2 == 0)
+												{
+																l = str[c];
+																			_putchar(l);
+																					}
+										}
+					_putchar('\n');
 }
