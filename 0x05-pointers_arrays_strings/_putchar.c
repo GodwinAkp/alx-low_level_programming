@@ -1,4 +1,4 @@
-nclude <unistd.h>
+#include <unistd.h>
 
 /**
  * _putchar - writes the character c to stdout
@@ -9,5 +9,5 @@ nclude <unistd.h>
  */
 int _putchar(char c)
 {
-		return (write(1, &c, 1));
+	return (write(1, &c, 1));
 }
