@@ -1,1 +1,2 @@
-3-print_remaining_days.c, main.h
+#!/bin/bash 
+We are learning C programing 
